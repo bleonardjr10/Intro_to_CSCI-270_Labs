@@ -1,0 +1,53 @@
+total_change = int(input())
+dollar = 100
+quarter = 25
+dime = 10
+nickel = 5
+penny = 1
+
+if total_change == 0:
+    print('No change')
+
+dollar_amount = total_change // dollar
+if dollar_amount > 1:
+    print(f'{dollar_amount} Dollars')
+elif dollar_amount == 1:
+    print(f'{dollar_amount} Dollar')
+else:
+    pass
+total_change = total_change - (dollar_amount * 100)
+
+quarter_amount = total_change // quarter
+if quarter_amount > 1:
+    print(f'{quarter_amount} Quarters')
+elif quarter_amount == 1:
+    print(f'{quarter_amount} Quarter')
+else:
+    pass
+total_change = total_change - (quarter_amount * 25)
+
+dime_amount = total_change // dime
+if dime_amount > 1:
+    print(f'{dime_amount} Dimes')
+elif dime_amount == 1:
+        print(f'{dime_amount} Dime')
+else:
+    pass
+total_change = total_change - (dime_amount * 10)
+
+nickel_amount = total_change // nickel
+if nickel_amount > 1:
+    print(f'{nickel_amount} Nickels')
+elif nickel_amount == 1:
+        print(f'{nickel_amount} Nickel')
+else:
+    pass
+total_change = total_change - (nickel_amount * 5)
+
+penny_amount = total_change // penny
+if penny_amount > 1:
+    print(f'{penny_amount} Pennies')
+elif penny_amount == 1:
+    print(f'{penny_amount} Penny')
+else:
+    pass
