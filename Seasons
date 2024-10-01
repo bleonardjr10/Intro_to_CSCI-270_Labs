@@ -13,68 +13,67 @@ elif input_month == 'March':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     elif input_day < 20:
-        season = 'Winter'
+        print('Winter')
     else:
-        season = 'Spring'
+        print('Spring')
 elif input_month == 'April':
     if (input_day <= 0 or input_day > 30):
         print("Invalid")
     else:
-        season = 'Spring'
+        print('Spring')
 elif input_month == 'May':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     else:
-        season = 'Spring'
+        print('Spring')
 elif input_month == 'June':
     if (input_day <= 0 or input_day > 30):
         print("Invalid")
     elif input_day < 21:
-        season = 'Spring'
+        print('Spring')
     else:
-        season = 'Summer'
+        print('Summer')
 elif input_month == 'July':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     else:
-        season = 'Summer'
+        print('Summer')
 elif input_month == 'August':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     else:
-        season = 'Summer'
+        print('Summer')
 elif input_month == 'September':
     if (input_day <= 0 or input_day > 29):
         print("Invalid")
     elif input_day < 22:
-        season = 'Summer'
+        print('Summer')
     else:
-        season = 'Autumn'
+        print('Autumn')
 elif input_month == 'October':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     else:
-        season = 'Autumn'
+        print('Autumn')
 elif input_month == 'November':
     if (input_day <= 0 or input_day > 30):
         print("Invalid")
     else:
-        season = 'Autumn'
+        print('Autumn')
 elif input_month == 'December':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     elif input_day < 21:
-        season = 'Autumn'
+        print('Autumn')
     else:
-        season = 'Winter'
+        print('Winter')
 elif input_month == 'January':
     if (input_day <= 0 or input_day > 31):
         print("Invalid")
     else:
-        season = 'Winter'
+        print('Winter')
 elif input_month == 'February':
     if (input_day <= 0 or input_day > 29):
         print("Invalid")
     else:
-        season = 'Winter'
-print(season)
+        print('Winter')
