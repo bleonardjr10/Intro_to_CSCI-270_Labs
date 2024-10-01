@@ -25,3 +25,18 @@
 
 
 ### TYPE YOUR CODE HERE
+strokes = int(input())
+par = int(input()) 
+
+if (par < 3) or (par > 5) or (par - strokes > 2) or (par - strokes < -1):
+    print(f'Par {par} in {strokes} strokes is Error')
+elif (par - strokes) == 2:
+    print(f'Par {par} in {strokes} strokes is Eagle')
+elif (par - strokes) == 1:
+    print(f'Par {par} in {strokes} strokes is Birdie')
+elif (par - strokes) == 0:
+    print(f'Par {par} in {strokes} strokes is Par')
+elif (par - strokes) == -1:
+    print(f'Par {par} in {strokes} strokes is Bogey')
+else:
+    pass
