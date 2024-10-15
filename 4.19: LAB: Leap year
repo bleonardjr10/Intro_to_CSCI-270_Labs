@@ -24,6 +24,7 @@ the output is:
 
 
 ### TYPE YOUR CODE HERE
+
 input_year = int(input())
 
 if (input_year % 100 == 0) and ((input_year // 100) % 4 != 0):
