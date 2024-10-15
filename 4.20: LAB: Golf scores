@@ -25,6 +25,7 @@ the output is:
 
 
 ### TYPE YOUR CODE HERE
+
 strokes = int(input())
 par = int(input()) 
 
