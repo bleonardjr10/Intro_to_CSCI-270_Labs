@@ -17,6 +17,7 @@ the output is:
 
 
 ### TYPE YOUR CODE HERE
+
 total_change = int(input())
 dollar = 100
 quarter = 25
