@@ -1,0 +1,21 @@
+Write a program that removes all non-alpha characters from the given input.
+
+Ex: If the input is:
+-Hello, 1 world$!
+
+the output is:
+Helloworld
+
+
+### TYPE YOUR CODE HERE
+
+def remove_non_alpha(input_string):
+    cleaned_string = ''
+    for char in input_string:
+        if char.isalpha():
+            cleaned_string += char
+    return cleaned_string
+
+user_input = input()
+cleaned_string = remove_non_alpha(user_input)
+print(cleaned_string)
