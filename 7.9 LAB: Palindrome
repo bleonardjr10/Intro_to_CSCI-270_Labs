@@ -1,0 +1,30 @@
+A palindrome is a word or a phrase that is the same when read both forward and backward. Examples are: "bob," "sees," or 
+"never odd or even" (ignoring spaces). Write a program whose input is a word or phrase, and that outputs whether the input 
+is a palindrome.
+
+Ex: If the input is:
+bob
+
+the output is:
+palindrome: bob
+
+Ex: If the input is:
+bobby
+
+the output is:
+not a palindrome: bobby
+
+Hint: Start by removing spaces. Then check if the string equals itself in reverse.
+
+
+### TYPE YOUR CODE HERE
+
+def is_palindrome(phrase):
+    cleaned_phrase = phrase.replace(" ", "").lower()
+    if cleaned_phrase == cleaned_phrase[::-1]:
+        return f'palindrome: {usr_input}'
+    else:
+        return f'not a palindrome: {usr_input}'
+
+usr_input = input()
+print(is_palindrome(usr_input))
