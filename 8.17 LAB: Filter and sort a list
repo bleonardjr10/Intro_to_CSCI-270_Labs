@@ -1,0 +1,30 @@
+Write a program that gets a list of integers from input, and outputs negative integers in descending order (highest to 
+lowest).
+
+Ex: If the input is:
+
+10 -7 4 -39 -6 12 -2
+the output is:
+
+-2 -6 -7 -39 
+For coding simplicity, follow every output value by a space. Do not end with newline.
+
+
+### TYPE YOUR CODE HERE
+
+SHORTHAND:
+numbers = list(map(int, input().split()))
+
+negative_numbers = sorted([num for num in numbers if num < 0], reverse=True)
+
+print(' '.join(map(str, negative_numbers)), end=' ')
+
+LONGHAND:
+numbers = list(map(int, input().split()))
+
+negative_numbers = [num for num in numbers if num < 0]
+
+negative_numbers.sort(reverse=True)
+
+for num in negative_numbers:
+    print(num, end=' ')
